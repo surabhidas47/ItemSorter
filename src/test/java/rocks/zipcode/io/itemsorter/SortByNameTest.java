@@ -16,7 +16,7 @@ public class SortByNameTest {
     public void test1() {
         // given
         Item item3 = new Item(0L, "Apple", 1.0);
-        Item item2 = new Item(1L, "Banana", 1.5);
+        Item item2 = new Item(1L, "Baanna", 1.5);
         Item item1 = new Item(2L, "Cherry", 2.0);
         Item[] itemsToSort = {item2, item1, item3};
         Item[] expected = {item3, item2, item1};
